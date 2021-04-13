@@ -4,6 +4,8 @@
 import com.opencsv.bean.CsvBindByName;  //acts as a header-->csvBindByName
                                         //anotherWay (CSV file with a header - users-with-header.csv)
 
+import com.opencsv.bean.CsvBindByName;
+
 public class StateCensus {
     @CsvBindByName(column = "State")
     private String stateName;
